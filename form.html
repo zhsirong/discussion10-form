@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Form</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <form action="" method="post"> <!-- Add action if connecting to formspree.io or another server -->
+        <fieldset>
+            <legend>Form</legend>
+            
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first_name" required placeholder="Enter your first name">
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last_name" required placeholder="Enter your last name">
+
+            <label for="program">Program:</label>
+            <input type="text" id="program" name="program" placeholder="Your program of study">
+
+            <div class="radio-group">
+                <p>Available Time for Picking Up Grocery:</p>
+                
+                <input type="radio" id="morning" name="available_time" value="morning">
+                <label for="morning">Morning</label>
+
+                <input type="radio" id="afternoon" name="available_time" value="afternoon">
+                <label for="afternoon">Afternoon</label>
+
+                <input type="radio" id="evening" name="available_time" value="evening">
+                <label for="evening">Evening</label>
+
+                <input type="radio" id="weekend" name="available_time" value="weekend">
+                <label for="weekend">Weekend</label>
+            </div>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

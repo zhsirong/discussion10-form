@@ -1,0 +1,55 @@
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f4; /* Soft background color for contrast */
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  color: #00274C; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: #00274C; 
+  padding: 30px;
+  max-width: 400px;
+  margin: 40px auto;
+  border-radius: 8px; /* Rounded edges for a softer look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  color: white; 
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold; /* Emphasize labels */
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+  width: 100%; /* Full width for better alignment */
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #FFCB05; 
+  color: #00274C; 
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+input[type="submit"]:hover {
+  background-color: #e6b500; /* Slightly darker shade on hover */
+}
